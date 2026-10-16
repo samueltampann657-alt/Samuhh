@@ -1,0 +1,70 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Calculator Body -->
+    <path
+        android:fillColor="#38BDF8"
+        android:pathData="M32,22 h44 c5.5,0 10,4.5 10,10 v44 c0,5.5 -4.5,10 -10,10 h-44 c-5.5,0 -10,-4.5 -10,-10 v-44 c0,-5.5 4.5,-10 10,-10 Z" />
+
+    <!-- Calculator Display Screen -->
+    <path
+        android:fillColor="#0F172A"
+        android:pathData="M30,30 h48 c2.2,0 4,1.8 4,4 v12 c0,2.2 -1.8,4 -4,4 h-48 c-2.2,0 -4,-1.8 -4,-4 v-12 c0,-2.2 1.8,-4 4,-4 Z" />
+
+    <!-- Screen digits/indicators -->
+    <path
+        android:fillColor="#38BDF8"
+        android:pathData="M70,37 h4 v8 h-4 Z M62,41 h5 v4 h-5 Z M53,39 h6 v2 h-6 Z" />
+
+    <!-- Keypad Button 1 (Top Left: AC/Clear) -->
+    <path
+        android:fillColor="#F43F5E"
+        android:pathData="M30,56 h9 c1.6,0 3,1.4 3,3 v5 c0,1.6 -1.4,3 -3,3 h-9 c-1.6,0 -3,-1.4 -3,-3 v-5 c0,-1.6 1.4,-3 3,-3 Z" />
+
+    <!-- Keypad Button 2 (Top Mid: + / Plus) -->
+    <path
+        android:fillColor="#0284C7"
+        android:pathData="M49,56 h10 c1.6,0 3,1.4 3,3 v5 c0,1.6 -1.4,3 -3,3 h-10 c-1.6,0 -3,-1.4 -3,-3 v-5 c0,-1.6 1.4,-3 3,-3 Z" />
+    <!-- Plus symbol in Button 2 -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M53,61 h2 v-2 h2 v2 h2 v2 h-2 v2 h-2 v-2 h-2 Z" />
+
+    <!-- Keypad Button 3 (Top Right: - / Minus) -->
+    <path
+        android:fillColor="#0284C7"
+        android:pathData="M69,56 h10 c1.6,0 3,1.4 3,3 v5 c0,1.6 -1.4,3 -3,3 h-10 c-1.6,0 -3,-1.4 -3,-3 v-5 c0,-1.6 1.4,-3 3,-3 Z" />
+    <!-- Minus symbol in Button 3 -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M72,61 h6 v2 h-6 Z" />
+
+    <!-- Keypad Button 4 (Bottom Left: × / Multiply) -->
+    <path
+        android:fillColor="#0284C7"
+        android:pathData="M30,71 h10 c1.6,0 3,1.4 3,3 v5 c0,1.6 -1.4,3 -3,3 h-10 c-1.6,0 -3,-1.4 -3,-3 v-5 c0,-1.6 1.4,-3 3,-3 Z" />
+    <!-- Multiply dot/symbol -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M33.5,74.5 l1.5,-1.5 l2,2 l2,-2 l1.5,1.5 l-2,2 l2,2 l-1.5,1.5 l-2,-2 l-2,2 l-1.5,-1.5 l2,-2 Z" />
+
+    <!-- Keypad Button 5 (Bottom Mid: ÷ / Divide) -->
+    <path
+        android:fillColor="#0284C7"
+        android:pathData="M49,71 h10 c1.6,0 3,1.4 3,3 v5 c0,1.6 -1.4,3 -3,3 h-10 c-1.6,0 -3,-1.4 -3,-3 v-5 c0,-1.6 1.4,-3 3,-3 Z" />
+    <!-- Divide symbol -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M51,76.5 h6 v1.5 h-6 Z M53.5,74 a1,1 0 1 1 2,0 a1,1 0 1 1 -2,0 M53.5,79.5 a1,1 0 1 1 2,0 a1,1 0 1 1 -2,0" />
+
+    <!-- Keypad Button 6 (Bottom Right: = / Equals - accent) -->
+    <path
+        android:fillColor="#10B981"
+        android:pathData="M69,71 h10 c1.6,0 3,1.4 3,3 v5 c0,1.6 -1.4,3 -3,3 h-10 c-1.6,0 -3,-1.4 -3,-3 v-5 c0,-1.6 1.4,-3 3,-3 Z" />
+    <!-- Equals sign -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M72,74.5 h6 v1.5 h-6 Z M72,78 h6 v1.5 h-6 Z" />
+</vector>

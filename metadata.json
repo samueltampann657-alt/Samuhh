@@ -1,0 +1,6 @@
+{
+  "name": "Kalkulator",
+  "description": "Aplikasi kalkulator sederhana dan modern dengan riwayat perhitungan",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
