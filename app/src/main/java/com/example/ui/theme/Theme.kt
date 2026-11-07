@@ -12,55 +12,57 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.platform.LocalContext
 
 private val DarkColorScheme = darkColorScheme(
-    primary = PrimaryBlueLight,
-    onPrimary = Color.Black,
-    primaryContainer = DarkKeyOperator,
-    onPrimaryContainer = Color.White,
-    secondary = AccentCyan,
-    onSecondary = Color.Black,
-    secondaryContainer = Slate800,
-    onSecondaryContainer = Color.White,
-    tertiary = AccentEmerald,
-    onTertiary = Color.Black,
-    tertiaryContainer = EqualColor,
-    onTertiaryContainer = Color.White,
+    primary = TealLight,
+    onPrimary = Color(0xFF003733),
+    primaryContainer = TealDark,
+    onPrimaryContainer = Color(0xFF99F6E4),
+    secondary = OceanBlueLight,
+    onSecondary = Color(0xFF00344F),
+    secondaryContainer = Color(0xFF075985),
+    onSecondaryContainer = Color(0xFFBAE6FD),
+    tertiary = GoldAmber,
+    onTertiary = Color(0xFF452B00),
+    tertiaryContainer = Color(0xFF784D00),
+    onTertiaryContainer = Color(0xFFFFDF9E),
     background = DarkBg,
-    onBackground = Color.White,
+    onBackground = Color(0xFFF1F5F9),
     surface = DarkSurface,
-    onSurface = Color.White,
-    surfaceVariant = Slate800,
-    onSurfaceVariant = Color(0xFF94A3B8),
-    error = FunctionColorDark,
+    onSurface = Color(0xFFF1F5F9),
+    surfaceVariant = DarkSurfaceVariant,
+    onSurfaceVariant = Slate400,
+    outline = DarkBorder,
+    error = ExpenseRed,
     onError = Color.White
 )
 
 private val LightColorScheme = lightColorScheme(
-    primary = PrimaryBlue,
+    primary = TealDark,
     onPrimary = Color.White,
-    primaryContainer = LightKeyOperator,
-    onPrimaryContainer = PrimaryBlue,
-    secondary = AccentTeal,
+    primaryContainer = TealContainer,
+    onPrimaryContainer = Color(0xFF115E59),
+    secondary = OceanBlue,
     onSecondary = Color.White,
-    secondaryContainer = LightKeyNumber,
-    onSecondaryContainer = Slate900,
-    tertiary = EqualColor,
+    secondaryContainer = OceanContainer,
+    onSecondaryContainer = Color(0xFF0369A1),
+    tertiary = GoldAmber,
     onTertiary = Color.White,
-    tertiaryContainer = EqualColor,
-    onTertiaryContainer = Color.White,
+    tertiaryContainer = GoldContainer,
+    onTertiaryContainer = Color(0xFFB45309),
     background = LightBg,
     onBackground = Slate900,
     surface = LightSurface,
     onSurface = Slate900,
-    surfaceVariant = Slate100,
-    onSurfaceVariant = Color(0xFF64748B),
-    error = FunctionColorLight,
+    surfaceVariant = LightSurfaceVariant,
+    onSurfaceVariant = Slate600,
+    outline = Slate200,
+    error = ExpenseRedDark,
     onError = Color.White
 )
 
 @Composable
-fun CalculatorTheme(
+fun KasKeluargaTheme(
     darkTheme: Boolean = isSystemInDarkTheme(),
-    dynamicColor: Boolean = false, // Keep consistent tailored calculator colors by default
+    dynamicColor: Boolean = false,
     content: @Composable () -> Unit
 ) {
     val colorScheme = when {

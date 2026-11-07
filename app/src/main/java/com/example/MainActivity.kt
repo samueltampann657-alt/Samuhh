@@ -4,16 +4,19 @@ import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
-import com.example.ui.CalculatorScreen
-import com.example.ui.theme.CalculatorTheme
+import androidx.lifecycle.viewmodel.compose.viewModel
+import com.example.ui.screens.MainScreen
+import com.example.ui.theme.KasKeluargaTheme
+import com.example.viewmodel.FinanceViewModel
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
         setContent {
-            CalculatorTheme {
-                CalculatorScreen()
+            KasKeluargaTheme {
+                val viewModel: FinanceViewModel = viewModel()
+                MainScreen(viewModel = viewModel)
             }
         }
     }
